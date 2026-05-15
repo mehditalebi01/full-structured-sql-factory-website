@@ -57,8 +57,11 @@ $database = 'factory1';
 
 ### 3) Run the app
 Option A — WAMP/XAMPP/MAMP:
-- Place the repo in your web root (e.g., `C:\wamp64\www\full-structured-sql-factory-website`)
-- Open: `http://localhost/Factory/index.php`
+- Place the repo folder in your web root (e.g., `C:\wamp64\www\full-structured-sql-factory-website`)
+- Open: `http://localhost/full-structured-sql-factory-website/Factory/index.php`
+
+Alternatively, you can copy only the `Factory/` folder into your web root and open:
+`http://localhost/Factory/index.php`
 
 Option B — PHP built-in server:
 ```
