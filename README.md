@@ -75,6 +75,7 @@ The schema models offices, factories, employees (managers, workers, office emplo
 See the ER diagrams in `/schema` for a visual overview.
 
 ![ER Diagram](schema/table.drawio.png)
+Image source: [`schema/table.drawio.png`](schema/table.drawio.png)
 
 ## Notes
 - Default connection settings are in `Factory/config.php`.
