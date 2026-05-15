@@ -17,14 +17,15 @@ This project is a lightweight web interface for managing a manufacturing busines
 
 ## Project Structure
 ```
-Factory/
-  index.php                # Home dashboard
-  config.php               # DB connection settings
-  admin/                   # Employee management
-  customers_orders/        # Customers & orders
-  factory_raw/             # Factories, products, raw materials
-schema/                    # ER diagrams (draw.io exports)
-*.sql                      # Schema and sample data dumps
+.
+├── Factory/               # PHP web app
+│   ├── index.php          # Home dashboard
+│   ├── config.php         # DB connection settings
+│   ├── admin/             # Employee management
+│   ├── customers_orders/  # Customers & orders
+│   └── factory_raw/       # Factories, products, raw materials
+├── schema/                # ER diagrams (draw.io exports)
+└── *.sql                  # Schema and sample data dumps
 ```
 
 ## Getting Started (Local)
